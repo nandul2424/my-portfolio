@@ -1,0 +1,16 @@
+Tenancy OCID="ocid1.tenancy.oc1..aaaaaaaadeewtorxyl6u7hgjv4uulmcrs423tdkohvbzdbehn2bqgd4dyxra"
+USER OCID="ocid1.user.oc1..aaaaaaaayzyinyj4hgyzmuf63trcadxt4pbgcqhdplns3iai6tssbiit2zwq"
+REGION="ap-singapore-1"
+COMPARTMENT_OCID="ocid1.tenancy.oc1..aaaaaaaadeewtorxyl6u7hgjv4uulmcrs423tdkohvbzdbehn2bqgd4dyxra"
+API_KEY="-----BEGIN RSA PRIVATE KEY-----
+Fingerprints
+SHA1:	8F 9C B6 B1 F2 B1 13 4B CB 89 6B 6D DF 92 CC C8 D9 13 B3 8D
+SHA256:	B8 0F E7 D8 13 AD 51 77 B6 71 D5 86 45 09 0D 94 19 F7 35 4B AD 8C F0 3F 06 07 F2 84 57 26 2D B0
+
+-----END RSA PRIVATE KEY-----"
+
+private_key_path = "/home/nandul24/Downloads/nandulhissella@gmail.com-2026-09-26T16_19_52.073Z.pem"
+
+
+
+
