@@ -2,6 +2,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <div className="pb-20 pt-36 relative">
@@ -66,20 +67,30 @@ const Hero = () => {
               <img
                 src="Nandul_dp.jpg"
                 alt="Nandul Lokitha profile photo"
-                className="relative z-10 h-[420px] w-full rounded-2xl object-cover"
+                className="relative z-10 h-[420px] w-full rounded-2xl object-cover object-[center_20%] scale-100"
               />
               <div className="relative z-20 mt-4 flex items-center justify-between gap-3">
-                <div>
-                  <h3 className="text-lg font-semibold text-white">
-                    Nandul Lokitha
-                  </h3>
-                  <p className="text-sm text-white-200">
-                    Software Engineer / DevOps / Infrastructure Engineer
-                  </p>
-                </div>
-                <div className="rounded-full border border-purple-500/20 bg-purple-500/10 px-4 py-2 text-sm text-purple">
+                <h3 className="text-lg font-semibold text-white">
+                  Nandul Lokitha
+                </h3>
+                <motion.div
+                  whileHover={{ scale: 1.08 }}
+                  whileTap={{ scale: 0.95 }}
+                  className="flex items-center gap-2 rounded-full border border-purple-500/20 bg-purple-500/10 px-4 py-2 text-sm text-purple cursor-pointer transition-colors hover:bg-purple-500/20"
+                >
+                  <motion.span
+                    animate={{ rotate: [0, 14, -8, 14, 0] }}
+                    transition={{
+                      duration: 1.6,
+                      repeat: Infinity,
+                      repeatDelay: 2,
+                    }}
+                    className="text-lg leading-none"
+                  >
+                    🇱🇰
+                  </motion.span>
                   Sri Lanka
-                </div>
+                </motion.div>
               </div>
             </div>
           </div>

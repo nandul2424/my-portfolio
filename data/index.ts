@@ -11,7 +11,7 @@ export const gridItems = [
     title:
       "Software Engineer / DevOps / Infrastructure Engineer focused on building scalable systems",
     description:
-      "Former Software Engineering Intern at Thomson Reuters, with hands-on experience across enterprise applications, backend engineering, and cloud-native delivery.",
+      "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full object-cover opacity-70",
     titleClassName: "justify-end",
@@ -22,7 +22,7 @@ export const gridItems = [
     id: 2,
     title: "I collaborate well across time zones and remote teams",
     description:
-      "Based in Sri Lanka and comfortable working with distributed teams, documentation-driven workflows, and clear communication.",
+      "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -55,7 +55,7 @@ export const gridItems = [
     id: 5,
     title: "Education",
     description:
-      "University of Ruhuna — BSc Computer Science, and Nalanda College — GCE A/L Maths Stream, with a strong academic foundation in computing and mathematics.",
+      "",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -66,7 +66,7 @@ export const gridItems = [
     id: 6,
     title: "Do you want to build something reliable together?",
     description:
-      "If you're looking for someone who can ship production-ready features and automate the delivery pipeline, let's talk.",
+      "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center md:max-w-full max-w-60 text-center",
